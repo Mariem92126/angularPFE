@@ -1,0 +1,136 @@
+body{
+    margin-top:20px;
+    background:#F0F8FF;
+    }
+   
+   
+        .card {
+        margin-bottom: 1.5rem;
+        box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);
+        }
+        .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid #e5e9f2;
+        border-radius: .2rem;
+        }
+
+        .card-header:first-child {
+            border-radius: calc(.2rem - 1px) calc(.2rem - 1px) 0 0;
+            }
+            .card-header {
+            border-bottom-width: 1px;
+            }
+            .card-header {
+            padding: .75rem 1.25rem;
+            margin-bottom: 0;
+            color: inherit;
+            background-color: #fff;
+            border-bottom: 1px solid #e5e9f2;
+            }
+           
+
+            .box {
+                background-color: #fff;
+                border: 1px solid #888;
+                width: 400px;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 5px;
+              }   
+              
+              
+              
+              
+.warn-info {
+    height: 100px;
+    width: 95%;
+    margin: 30px 0;
+    background-color: #ffe7d9;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+  }
+  .warn-info::before {
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 3px;
+    top: 0px;
+    left: 0px;
+    background-color: #f47142;
+  }
+  .warn-info h5 {
+    color: #7e1709;
+    margin: 10px 0;
+  }
+  
+             
+              
+              
+
+
+
+
+
+         .clearfix .button1 {
+            background-color: #627d98;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 50px;
+            padding: 8px 35px;
+          }
+          
+.clearfix .button2 {
+    padding: 8px 20px;
+    background-color: #e12d39;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+  }
+ 
+  .delete-cont{
+    width: 90%;
+    padding: 5%;
+   margin-right: 50%;
+   margin-top: 5%; 
+   background: rgb(255, 255, 255);
+    display: none;
+   
+  }
+  .delete-actions{
+    display: flex;
+  }
+  .close{
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+    margin-top: 5%;
+    float: right;
+    cursor: pointer;
+  }
+  .cancel {
+    width: 50%;
+    height:5vh;
+    background: blue;
+    border: none;
+    color: white;
+    margin-right: 1%;
+  }
+  .delete {
+    width: 50%;
+    height:5vh;
+    background: red;
+    border: none;
+    color: white;
+    margin-left: 1%;
+  }  

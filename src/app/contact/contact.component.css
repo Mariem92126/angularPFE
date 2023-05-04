@@ -1,0 +1,25 @@
+*{
+    list-style: none;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'open sans',sans-serif;
+    }
+
+.bg{
+    background-image: url("https://img.freepik.com/photos-premium/contactez-nous-personnes-ligne-assistance-clientele-se-connectent-homme-affaires-utilisant-affichage-toucher-icones-contact-ecran-virtuel-appeler-telephone-adresse-e-mail-chat-direct_35148-4374.jpg?w=360");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    }
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+    display:flex;
+    align-items: center;
+    padding:0 30px;
+    }
+   

@@ -1,0 +1,24 @@
+
+
+
+
+.container{
+    
+    background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-online-shopping-card-payment-image_1061692.jpg') ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: cover;
+   background-position: center;
+    }
+
+.vm--modal {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+  
+    border-radius: 3px;
+ 
+}
+
+

@@ -1,0 +1,351 @@
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+  rel="stylesheet"
+/>
+
+
+<div class="container p-0">
+    <h1 class="h3 mb-3">Paramètres</h1>
+    <div class="row">
+        <div class="col-md-5 col-xl-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Paramètres de Profile</h5>
+                </div>
+                <div class="list-group list-group-flush" role="tablist">
+                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account"
+                        role="tab">
+                        Compte
+                    </a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#password" role="tab">
+                        Mot de passe
+                    </a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#security" role="tab">
+                        Confidentialité et sécurité
+                    </a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#delete" role="tab">
+                        Supprimer le compte
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7 col-xl-8">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="account" role="tabpanel">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-actions float-right">
+                                <div class="dropdown show">
+                                    <a href="#" data-toggle="dropdown" data-display="static">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-more-horizontal align-middle">
+                                            <circle cx="12" cy="12" r="1"></circle>
+                                            <circle cx="19" cy="12" r="1"></circle>
+                                            <circle cx="5" cy="12" r="1"></circle>
+                                        </svg>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Autre action</a>
+                                        <a class="dropdown-item" href="#">Autre...</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="card-title mb-0">Informations publiques</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label for="inputUsername">Nom d'utilisateur</label>
+                                            <input type="text" class="form-control" id="inputUsername"
+                                                placeholder="Nom d'utilisateur">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputUsername">Biographie</label>
+                                            <textarea rows="2" class="form-control" id="inputBio"
+                                                placeholder="Dites quelque chose sur vous"></textarea>
+                                        </div>
+                                    </div>
+   
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sauvgarder les modifications</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-actions float-right">
+                                <div class="dropdown show">
+                                    <a href="#" data-toggle="dropdown" data-display="static">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-more-horizontal align-middle">
+                                            <circle cx="12" cy="12" r="1"></circle>
+                                            <circle cx="19" cy="12" r="1"></circle>
+                                            <circle cx="5" cy="12" r="1"></circle>
+                                        </svg>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Autre action</a>
+                                        <a class="dropdown-item" href="#">Autre...</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <h5 class="card-title mb-0">Informations privées</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputLastName">Prénom</label>
+                                        <input type="text" class="form-control" id="inputLastName"
+                                            placeholder="Nom de famille">
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Adresse</label>
+                                    <input type="text" class="form-control" id="inputAddress"
+                                        placeholder="1234 Main St">
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress2">Adresse 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2"
+                                        placeholder="Appartement, studio, or étage">
+
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCity">Ville</label>
+                                        <input type="text" class="form-control" id="inputCity">
+
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputState">Etat</label>
+
+                                        <select id="inputState" class="form-control">
+                                            <option selected="">Choisir..</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputZip">Zipper</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sauvgarder les modifications</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="password" role="tabpanel">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Mot de passe</h5>
+                            <form>
+                                <div class="form-group">
+                                    <label for="inputPasswordCurrent">Mot de passe actuel</label>
+                                    <input type="password" class="form-control" id="inputPasswordCurrent">
+                                    <small><a href="#">Mot de passe oublié?</a></small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordNew">Nouveau mot de passe</label>
+                                    <input type="password" class="form-control" id="inputPasswordNew">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordNew2">Vérifier le mot de passe</label>
+                                    <input type="password" class="form-control" id="inputPasswordNew2">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sauvgarder les modifications</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="security" role="tabpanel">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Confidentialité et sécurité</h4>
+                            <form>
+                                <div class="form-group">
+                                    <section class="glue-page main-hero fade-in">
+                                        <div class="glue-grid">
+                                            <div class="grid-item glue-grid__col glue-grid__col--span-2"></div>
+                                            <div class="grid-item glue-grid__col glue-grid__col--span-8">
+                                                <h1 style="color:rgb(38, 38, 255);"
+                                                    class="glue-mod-text-center glue-headline glue-headline--headline-1 hero-text orphan-joiner"
+                                                    aria-label="Des outils de confidentialité qui vous permettent de garder le contrôle">
+                                                    Des outils de confidentialité qui<br> <span>vous permettent de
+                                                        garder le contrôle</span></h1>
+                                            </div>
+                                        </div>
+                                        <div class="glue-grid glue-mod-spacer-3-top">
+                                            <div
+                                                class="glue-grid__col glue-grid__col--span-0-sm glue-grid__col--span-2-md glue-grid__col--span-3-lg">
+                                            </div>
+                                            <div
+                                                class="subcopy glue-headline glue-grid__col--span-4-sm glue-headline--headline-5 glue-mod-text-center
+                                                glue-grid__col glue-grid__col--span-8-md glue-grid__col--span-6-lg orphan-joiner">
+                                                <p>Chaque utilisateur a des attentes différentes en matière de
+                                                    confidentialité des données.
+                                                    Nous avons donc conçu des paramètres faciles à modifier vous
+                                                    permettant de définir un niveau de confidentialité adapté à vos
+                                                    besoins.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <h5 style="color:rgb(38, 38, 255)">Sécuriser vos informations</h5>
+
+                                    <div class="w94E5e m2dIJf">
+                                        <img class="I9WKse" alt=""
+                                            src="https://www.gstatic.com/policies/privacy/fb61fc4bfc85ad86f11342e699d685e9.svg">
+                                    </div>
+                                    <p class="q0cs9b">La sécurité fait partie intégrante de nos services en vue de
+                                        protéger vos informations</p>
+                                    <p>Tous les produits Google intègrent de puissantes fonctionnalités de sécurité qui
+                                        protègent vos informations en continu. Les renseignements que nous collectons
+                                        via nos services nous permettent de détecter et de bloquer automatiquement les
+                                        menaces qui pèsent sur votre sécurité. Si nous détectons une activité suspecte
+                                        importante, nous vous en informerons et vous donnerons des conseils pour
+                                        améliorer votre sécurité.</p>
+
+
+                                    <h5 style="color:rgb(38, 38, 255)">Partager vos informations</h5>
+                                    <div class="w94E5e m2dIJf">
+                                        <img class="I9WKse" alt=""
+                                            src="https://www.gstatic.com/policies/privacy/fa9e0e90d1e7ec399dad9f3257a9bb63.svg">
+                                    </div>
+                                    Lorsque vous partagez vos informations
+                                    De nombreux services Google vous permettent de partager vos informations avec
+                                    d'autres personnes et de contrôler la façon dont elles le sont.
+
+                                    Lorsque vous êtes connecté à votre compte et que vous interagissez avec des services
+                                    Google votre nom et votre photo apparaissent à côté de votre activité. Nous sommes
+                                    également susceptibles d'afficher ces informations dans des annonces, en fonction
+                                    des paramètres de recommandations partagées que vous avez définis.
+
+                                    <h5 style="color:rgb(38, 38, 255)">Exporter et supprimer vos informations </h5>
+                                    <div class="w94E5e m2dIJf"><img class="I9WKse" alt=""
+                                            src="https://www.gstatic.com/policies/privacy/13062c65605335a46d14656c46af3868.svg">
+                                    </div>
+                                    <p class="q0cs9b">Vous pouvez exporter une copie de vos informations ou les
+                                        supprimer de votre compte Google à tout moment</p>
+                                    <p>Vous pouvez exporter une copie du contenu de votre compte Google si vous
+                                        souhaitez en créer une sauvegarde ou l'utiliser avec un service autre que
+                                        Google.</p>
+                                    <div class="D4pEue">
+                                        <div class="IdGe7d"><img class="mmVysd " alt="" 
+                                                src="https://www.gstatic.com/policies/privacy/5959e84c2197c8a27da0a717f1cd47d5.svg" >
+                                        </div>
+                                        <div class="JeZ38" >
+                                            <p class="HO4p" ><a
+                                                    href="https://takeout.google.com/?utm_source=pp&amp;hl=fr"
+                                                    class="eIKgNd">Exporter vos données</a></p>
+                                        </div>
+                                    </div>
+                                    <p>Les options suivantes s'offrent à vous si vous souhaitez supprimer vos informations :</p>
+                                    <div class="D4pEue">
+                                        <div class="IdGe7d">
+                                            <img class="mmVysd " alt="" src="https://www.gstatic.com/policies/privacy/1fa3e4ce8ac456f39ed02a6f9eb49b14.svg">
+                                        </div>
+                                        <div class="JeZ38" >
+                                            <p class="HO4p">
+                                                <a href="https://myaccount.google.com/delete-services-or-account?utm_source=pp&amp;hl=fr" class="eIKgNd" >Supprimer vos informations</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                <h5 style="color:rgb(38, 38, 255)">Conformité et coopération avec des organismes de réglementation </h5>
+                                
+                                <div class="w94E5e m2dIJf"><img class="I9WKse" alt="" src="https://www.gstatic.com/policies/privacy/e60586c0029adec0bacd3e48470ca6c6.svg"></div>
+                                <p>Nous révisons régulièrement les présentes Règles de confidentialité et nous nous assurons que nous traitons vos informations conformément à celles-ci.</p>
+                                <p><br><br><br></p>
+                                    <div class="T6GQ8"><img
+                                            src="https://www.gstatic.com/identity/boq/policies/privacy/privacy_checkup_icon.svg"
+                                            alt="" data-atf="false" data-iml="13044.699999988079">
+
+                                    </div>
+                                  
+                                    <div class="KMSzQd">
+                                        <p class="uVL6rc lxrZg">Check-up Confidentialité</p>
+                                        <p class="lxrZg y8e7bd">Vous souhaitez modifier vos paramètres de
+                                            confidentialité&nbsp;?</p>
+                                        <p class="lxrZg"><a
+                                                href="https://myaccount.google.com/privacycheckup?utm_source=pp&amp;utm_medium=Promo-in-product&amp;utm_campaign=pp_intro&amp;hl=fr"
+                                                class="N6CPUe" target="_blank">Faire un Check-up Confidentialité</a>
+                                        </p>
+                                    </div>
+
+
+                                </div>
+                            </form>
+
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="delete" role="tabpanel">
+                    <div class="card">
+                      <div class="card-body">
+                            
+                            <h3 class="card-title">Supprimer le compte</h3>
+                        <div class="box">
+                            <p>Avez-vous supprimé votre compte ?</p>
+                          <div class="warn-info">
+                            <h5><i class="fa fa-warning"></i> Attention</h5>  
+                            <p>En supprimant le compte, vous ne pourrez pas annuler cette action.</p>  
+                          </div> 
+                          <div class="clearfix">
+                            <a class="button1" id="cancel" href="settings">Annuler</a>
+                            <a class="button2" id="cancel" onclick="document.querySelector('.delete-cont').style.display = 'block' ">Supprimer le compte<i class="fa fa-trash"></i></a>
+                           
+                            <div class="delete-cont">
+                            <span class="close" titre="close&" onclick="document.querySelector('.delete-cont').style.display = 'none' ">&times;</span>
+                            <div class="delete-txt">
+                                <p>Etes-vous sûr(e) de vouloir supprimer ce compte ?</p>
+                            </div>
+                            <div  class="delete-actions"> 
+                               <a class="cancel" href="settings"> <button class="cancel">Non</button></a>  
+                               <a  class="delete" href="adminlogamin"> <button class="delete">Oui,sûre</button></a>
+                             
+                            </div>
+                           </div> 
+                          </div>
+
+                        </div>
+                       </div>
+                    </div> 
+                    <script></script>
+                                        
+                </div>
+                 
+
+
+
+            </div>
+        </div>
+    </div>
+
+ </div>
